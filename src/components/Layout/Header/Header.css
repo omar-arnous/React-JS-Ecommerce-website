@@ -1,0 +1,30 @@
+header {
+  background-color: #eee;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.logo a {
+  font-family: "Oleo Script", sans-serif;
+  font-size: 32px;
+  text-decoration: none;
+  color: #9a9483;
+  transition: all 0.2s;
+}
+
+.logo a:hover,
+.logo a:active {
+  color: #ee2d27;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}

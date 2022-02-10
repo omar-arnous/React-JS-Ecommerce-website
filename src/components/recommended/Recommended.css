@@ -1,0 +1,29 @@
+.recommended-section {
+  margin-top: 40px;
+}
+
+.recommended-section h2 {
+  color: #464646;
+  margin-bottom: 30px;
+}
+
+.recommended-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  overflow-x: scroll;
+}
+
+.recommended-list::-webkit-scrollbar {
+  display: none;
+}
+
+.recommended-list p {
+  margin: 0 auto;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.recommended-list .product-card {
+  margin: 0 20px 20px 20px;
+}

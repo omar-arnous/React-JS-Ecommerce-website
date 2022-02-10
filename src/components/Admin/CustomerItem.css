@@ -1,0 +1,10 @@
+.customer-item {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+.customer-item img {
+  width: 20%;
+  margin-right: 20px;
+}

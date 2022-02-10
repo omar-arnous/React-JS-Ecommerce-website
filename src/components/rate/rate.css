@@ -1,0 +1,22 @@
+.star {
+  color: gold;
+  font-size: 2rem;
+  padding: 0 0.1rem; /* space out the stars */
+}
+.star::before {
+  color: gold;
+  content: "\2606";
+  cursor: pointer;
+}
+.star:hover::before {
+  /* the :hover should come first */
+  content: "\2605";
+  color: gold;
+}
+.star.rated::before {
+  /* the :hover should come first */
+  content: "\2605";
+}
+
+.stars a {
+}

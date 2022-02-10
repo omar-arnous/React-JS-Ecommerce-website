@@ -1,0 +1,10 @@
+.category-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.category-item img {
+  width: 30%;
+  object-fit: cover;
+}

@@ -1,0 +1,22 @@
+.products-section {
+  margin-top: 40px;
+}
+
+.products-section h2 {
+  color: #464646;
+  margin-bottom: 30px;
+}
+
+.products-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px 20px;
+}
+
+.products-list p {
+  margin: 0 auto;
+  font-size: 24px;
+  font-weight: 700;
+  grid-column: 2 / 4;
+}
